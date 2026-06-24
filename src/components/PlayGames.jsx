@@ -1,9 +1,9 @@
 import { useState } from "react";
 import TabButton from "./TabButton";
-import "../Css/tabButton.css";
+import "../components/tabButton.css";
 import { jogos } from "../Data/JogoData";
 
-import "../Css/PlayGames.css";
+import "./PlayGames.css";
 
 
 // Lista de géneros 

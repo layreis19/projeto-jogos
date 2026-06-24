@@ -1,0 +1,27 @@
+/* ── Tab Button ──────────────────────────────────────── */
+.tab-button {
+  min-width: 130px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid var(--accent-border, rgba(170, 59, 255, 0.4));
+  background: transparent;
+  color: var(--text-muted, #8b8d99);
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.tab-button:hover {
+  background: var(--accent-dim, rgba(170, 59, 255, 0.15));
+  border-color: var(--accent, #aa3bff);
+  color: #ffffff;
+}
+
+.tab-button.active {
+  background: var(--accent, #aa3bff);
+  border-color: var(--accent, #aa3bff);
+  color: #ffffff;
+  font-weight: 600;
+}

@@ -1,4 +1,4 @@
-import '../Css/TabButton.css'
+import '../components/TabButton.css'
 
 
 function TabButton({children,clickFunction, isActive}) {

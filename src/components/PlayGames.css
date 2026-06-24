@@ -1,0 +1,118 @@
+/* ── Variáveis ───────────────────────────────────────── */
+:root {
+  --accent:        #aa3bff;
+  --accent-dim:    rgba(170, 59, 255, 0.15);
+  --accent-border: rgba(170, 59, 255, 0.4);
+  --bg-card:       #1a1a1e;
+  --bg-item:       #202024;
+  --bg-item-hover: #2a2a30;
+  --bg-badge:      #121214;
+  --text-primary:  #ffffff;
+  --text-muted:    #8b8d99;
+  --border-subtle: #29292e;
+  --error:         #ff4d4f;
+}
+
+/* ── Contentor Principal ─────────────────────────────── */
+.jogos-container {
+  max-width: 800px;
+  margin: 48px auto;
+  padding: 32px;
+  background-color: #121214;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-primary);
+}
+
+.jogos-container h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* ── Tabs ────────────────────────────────────────────── */
+.jogos-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  flex-wrap: wrap;
+}
+
+.bandeira {
+  margin-right: 6px;
+  font-size: 1.1rem;
+}
+
+/* ── Área de Conteúdo ────────────────────────────────── */
+.jogos-conteudo {
+  background-color: var(--bg-card);
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 160px;
+  border: 1px solid var(--border-subtle);
+}
+
+/* ── Lista de Jogos ──────────────────────────────────── */
+.jogos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── Item Individual ─────────────────────────────────── */
+.jogos-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background-color: var(--bg-item);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: default;
+}
+
+.jogos-item:hover {
+  transform: translateX(6px);
+  background-color: var(--bg-item-hover);
+}
+
+.jogos-item-nome {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.jogos-item-data {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background-color: var(--bg-badge);
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border-subtle);
+  white-space: nowrap;
+}
+
+/* ── Mensagens ───────────────────────────────────────── */
+.jogos-mensagem {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1rem;
+  padding: 48px 0;
+}
+
+.jogos-mensagem-erro {
+  color: var(--error);
+  font-weight: 600;
+}

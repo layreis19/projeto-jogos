@@ -8,7 +8,8 @@ import Homepage from './Pages/HomePage'
 import ErrorPage from './Pages/ErrorPage'
 import RootLayout from './components/RootLayout'
 import PlayGamesPage from './Pages/PlayGamesPage'
-import Jogospage from './components/JogosPage'
+import JogosPage from './Pages/JogosPage'
+import DetalhesPage from './Pages/DetalhesPage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
     children:[ {path:'/', element:<Homepage/>},
        {path:'/PlayGamesPage', element:<PlayGamesPage/>},
         {path:'/HomePage', element:<Homepage/>},
-        {path:'/JogosPage', element:<Jogospage/>}
+        {path:'/JogosPage', element:<JogosPage/>},
+        {path:'/DetalhesPage', element:<DetalhesPage/>}
       
        ]
       

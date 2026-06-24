@@ -1,0 +1,95 @@
+.detalhes-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.detalhes-container h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #aa3bff;
+  margin-bottom: 36px;
+}
+
+/* ── Voltar ──────────────────────────────────────────── */
+.detalhes-voltar {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #aa3bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
+}
+
+.detalhes-voltar:hover {
+  opacity: 0.7;
+}
+
+/* ── Card ────────────────────────────────────────────── */
+.detalhes-card {
+  background-color: #1a1a1e;
+  border-radius: 12px;
+  border: 1px solid #29292e;
+  overflow: hidden;
+}
+
+.detalhes-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Info ────────────────────────────────────────────── */
+.detalhes-info {
+  padding: 24px;
+}
+
+.detalhes-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detalhes-info ul li {
+  background-color: #202024;
+  border-left: 3px solid #aa3bff;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+/* ── Botão Jogar ─────────────────────────────────────── */
+.detalhes-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #aa3bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.detalhes-btn:hover {
+  background-color: #9428e0;
+  transform: translateY(-2px);
+}
+
+/* ── Estado ──────────────────────────────────────────── */
+.detalhes-estado {
+  text-align: center;
+  padding: 80px 0;
+  font-size: 1.1rem;
+  color: #8b8d99;
+}

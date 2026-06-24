@@ -11,7 +11,7 @@ export default function Homepage(){
       <Link to = "/JogosPage">Lista de Jogos</Link>
 
 <br />
-       <Link to="/"></Link>
+       <Link to="/DetalhesPage">Detalhes</Link>
 <br />
        <Link to="/"></Link>
 
