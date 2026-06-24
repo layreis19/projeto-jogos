@@ -8,7 +8,7 @@ export default function Homepage(){
 <br />
         <Link to ="/PlayGamesPage">PlayGames</Link>
 <br/>
-      <Link to = "/"></Link>
+      <Link to = "/JogosPage">Lista de Jogos</Link>
 
 <br />
        <Link to="/"></Link>
