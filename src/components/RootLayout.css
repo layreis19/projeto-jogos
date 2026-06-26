@@ -1,4 +1,4 @@
-/* ── Layout ──────────────────────────────────────────── */
+
 .layout {
   min-height: 100vh;
   background-color: #0e0e10;
@@ -10,7 +10,7 @@
   flex: 1;
 }
 
-/* ── Navbar ──────────────────────────────────────────── */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@
   border: 1px solid rgba(170, 59, 255, 0.4);
 }
 
-/* ── Footer ──────────────────────────────────────────── */
+
 .footer {
   background-color: #121214;
   border-top: 1px solid #29292e;

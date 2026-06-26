@@ -1,4 +1,4 @@
-/* ── Página de Jogos ─────────────────────────────────── */
+
 
 .jogos-page {
   max-width: 1200px;
@@ -18,7 +18,7 @@
   margin-bottom: 36px;
 }
 
-/* ── Grelha de Jogos ─────────────────────────────────── */
+
 .jogos-grid {
   list-style: none;
   padding: 0;
@@ -28,7 +28,7 @@
   gap: 20px;
 }
 
-/* ── Cartão Individual ───────────────────────────────── */
+
 .jogo-card {
   background-color: #1a1a1e;
   border-radius: 12px;
@@ -51,7 +51,7 @@
   height: 100%;
 }
 
-/* ── Imagem ──────────────────────────────────────────── */
+
 .jogo-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -59,7 +59,7 @@
   display: block;
 }
 
-/* ── Info do Cartão ──────────────────────────────────── */
+
 .jogo-card-info {
   padding: 14px 16px;
   display: flex;
@@ -85,7 +85,7 @@
   width: fit-content;
 }
 
-/* ── Estados ─────────────────────────────────────────── */
+
 .jogos-estado {
   text-align: center;
   padding: 80px 0;

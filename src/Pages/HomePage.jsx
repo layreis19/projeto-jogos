@@ -15,14 +15,14 @@ export default function Homepage() {
   return (
     <div className="home-page">
 
-      {/* Apresentação */}
+      
       <section className="home-hero">
         <h1>GameVerse</h1>
         <p>Descobre os melhores jogos gratuitos. Explora por género, vê detalhes e encontra o teu próximo jogo favorito.</p>
         <Link to="/jogos" className="home-btn">Ver Jogos</Link>
       </section>
 
-      {/* Jogo em Destaque */}
+     
       <section className="home-destaque">
         <h2>Jogo em Destaque</h2>
         {!jogoDestaque && <p className="home-estado">A carregar...</p>}
@@ -41,7 +41,7 @@ export default function Homepage() {
         )}
       </section>
 
-      {/* Navegação */}
+      
       <section className="home-nav">
         <Link to="/jogos" className="home-nav-card">
           <span>🎮</span>

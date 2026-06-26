@@ -6,7 +6,7 @@ import { jogos } from "../Data/JogoData";
 import "./PlayGames.css";
 
 
-// Lista de géneros 
+
 const generos = [
   { nome: "RPG", icone: "⚔️", slug: "rpg" },
   { nome: "Ação", icone: "💥", slug: "action" },
@@ -26,7 +26,7 @@ function playGames() {
         throw new Error("Erro ao carregar jogos");
       }
 
-      // Procura a lista de jogos usando o slug do género 
+      
       const jogosGenero = jogos[generoSlug] || [];
 
       setListaJogos(jogosGenero);

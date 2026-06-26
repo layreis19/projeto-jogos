@@ -1,4 +1,4 @@
-import PlayGames from "../components/Playgames"
+import PlayGames from "../components/PlayGames"
 
 export default function PlayGamesPage(){
 

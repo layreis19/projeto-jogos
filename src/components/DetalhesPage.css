@@ -16,7 +16,7 @@
   margin-bottom: 36px;
 }
 
-/* ── Voltar ──────────────────────────────────────────── */
+
 .detalhes-voltar {
   display: inline-block;
   margin-bottom: 24px;
@@ -30,7 +30,7 @@
   opacity: 0.7;
 }
 
-/* ── Card ────────────────────────────────────────────── */
+
 .detalhes-card {
   background-color: #1a1a1e;
   border-radius: 12px;
@@ -45,7 +45,7 @@
   display: block;
 }
 
-/* ── Info ────────────────────────────────────────────── */
+
 .detalhes-info {
   padding: 24px;
 }
@@ -68,7 +68,7 @@
   color: #cccccc;
 }
 
-/* ── Botão Jogar ─────────────────────────────────────── */
+
 .detalhes-btn {
   display: inline-block;
   padding: 12px 28px;
@@ -86,7 +86,7 @@
   transform: translateY(-2px);
 }
 
-/* ── Estado ──────────────────────────────────────────── */
+
 .detalhes-estado {
   text-align: center;
   padding: 80px 0;

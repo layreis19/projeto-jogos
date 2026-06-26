@@ -1,4 +1,4 @@
-/* ── Variáveis ───────────────────────────────────────── */
+
 :root {
   --accent:        #aa3bff;
   --accent-dim:    rgba(170, 59, 255, 0.15);
@@ -13,7 +13,7 @@
   --error:         #ff4d4f;
 }
 
-/* ── Contentor Principal ─────────────────────────────── */
+
 .jogos-container {
   max-width: 800px;
   margin: 48px auto;
@@ -35,7 +35,7 @@
   letter-spacing: 3px;
 }
 
-/* ── Tabs ────────────────────────────────────────────── */
+
 .jogos-tabs {
   display: flex;
   justify-content: center;
@@ -51,7 +51,7 @@
   font-size: 1.1rem;
 }
 
-/* ── Área de Conteúdo ────────────────────────────────── */
+
 .jogos-conteudo {
   background-color: var(--bg-card);
   border-radius: 10px;
@@ -60,7 +60,7 @@
   border: 1px solid var(--border-subtle);
 }
 
-/* ── Lista de Jogos ──────────────────────────────────── */
+
 .jogos-lista {
   list-style: none;
   padding: 0;
@@ -70,7 +70,6 @@
   gap: 10px;
 }
 
-/* ── Item Individual ─────────────────────────────────── */
 .jogos-item {
   display: flex;
   justify-content: space-between;
@@ -104,7 +103,7 @@
   white-space: nowrap;
 }
 
-/* ── Mensagens ───────────────────────────────────────── */
+
 .jogos-mensagem {
   text-align: center;
   color: var(--text-muted);
